@@ -34,7 +34,8 @@ public enum CreditCard
 	Visa(R.drawable.credit_card_logo__visa, "^4[0-9]{0,15}$"),
 	VisaElectron(R.drawable.credit_card_logo__visa_electron, "^(4026|417500|4405|4508|4844|4913|4917)\\d+$"),
 	Jcb(R.drawable.credit_card_logo__jcb, "^(?:2131|1800|35\\d{3})\\d{0,11}$"),
-	Unknown(R.drawable.credit_card__icc, ""),;
+	Unknown(R.drawable.credit_card__icc, ""),
+	;
 
 	private final String regex;
 
